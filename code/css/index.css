@@ -1,0 +1,169 @@
+@import url('https://fonts.cdnfonts.com/css/museo-sans-rounded');
+
+header{
+    background-color: #ff4140;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+    align-items: center;
+}
+body{
+    margin: 0;
+    font-family: 'Museo Sans Rounded', sans-serif;
+}
+figure{
+    margin: 0;
+}
+.logo{
+    width: 9%;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+nav hr{
+    color: white;
+    height: 20px;
+}
+nav h4{
+    font-weight: 600;
+}
+nav h4:hover{
+    cursor: pointer;
+}
+nav button{
+    background-color: white;
+    color: #ff4140;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Museo Sans Rounded', sans-serif;
+}
+
+/* -------------------------- */
+
+main .carrusel{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+main .carrusel .swiper{
+    width: 300%;
+    overflow: hidden;
+    display: flex;
+    transition: transform ease-in-out 0.4s;
+}
+main .swiper .slide{
+    width: 33.33%;
+    height: fit-content;
+}
+.carrusel img{
+    object-fit: cover;
+}
+
+main .title-main{
+    text-align: center;
+    font-size:35px ;
+    color: #ff4140;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.carrusel .contPuntos{
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+    display: flex;
+    gap: 2px;
+    height: fit-content;
+}
+.carrusel .contPuntos .punto{
+    width: 17px;
+    height: 17px;
+    background-color: rgba(230, 230, 230, 0.624);
+    border-radius: 100px;
+    display: block;
+}
+.contPuntos .puntos{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion_2{
+    background-color: #f3f3f3;
+}
+.seccion_2 .contIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.seccion_2 .contIcons div{
+    width: 70px;
+}
+
+.seccion_3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.seccion_3_fig .billetes{
+    width: 65%;
+    position: absolute;
+    right: 0;
+    object-fit: contain;
+    z-index: 3;
+}
+
+.seccion_3 .seccion_3_fig{
+    width: 70%;
+    border-radius: 20px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color: #d8f6f6;
+}
+.seccion_3 .texto{
+    position: absolute;
+    width: 23%;
+    top: 50%;
+    left: 7%;
+}
+.seccion_3 .fondo{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.seccion_3_fig .text{
+    position: absolute;
+    top: 16%;
+    left: 7%;
+    font-size: 32px;
+    color: #00a09c;
+}
+.seccion_3_fig .text_1{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: 3;
+    font-size: 20px;
+    top: 25%;
+    text-align: center;
+    color: white;
+}
